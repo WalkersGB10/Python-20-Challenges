@@ -1,4 +1,4 @@
-words = ["tacocat", "racecar", "oliver", "bradford", "high", "mill", "pneumonoultramicroscopicsilicovolcanoconiosis", "hippopotomonstrosesquippedaliophobia", "oyster", "wellington", "word", "can", "they", "be", "numbers", "fifteen"]
+words = ["tacocat", "racecar", "oliver", "bradford", "high", "mill", "pneumonoultramicroscopicsilicovolcanoconiosis", "hippopotomonstrosesquippedaliophobia", "oyster", "wellington", "word", "can", "they", "be", "numbers", "fifteen", "mitsubishi"]
 
 letter = input("What is your letter?").lower()[0]
 
