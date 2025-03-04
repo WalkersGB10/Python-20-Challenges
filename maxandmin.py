@@ -5,8 +5,10 @@ nums = []
 
 while True:
     num = int(input("What is your number?"))
-    if num >= low and num <= upper:
+    if num >= low and num <= high:
         nums.append(num)
+    nums.sort()
     if len(nums) > 1:
-        print(nums[0])
-        print(nums[-1])
+        print("lowest num:", nums[0])
+        print("highest num:", nums[-1])
+
