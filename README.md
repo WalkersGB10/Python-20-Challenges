@@ -1,1 +1,1 @@
-JAMES is smelly
+JAMES is stinky
