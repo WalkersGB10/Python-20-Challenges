@@ -1,3 +1,4 @@
-words = input("What is your phrase?")
-wow = words.split()
-print(len(wow))
+while True:
+  words = input("What is your phrase?")
+  wow = words.split()
+  print(len(wow))
