@@ -7,13 +7,13 @@ quantity = []
 def add():
   item = input("What is the item?")
   stuff.append(item)
-  location = input("Where will you purchase", item)
+  location = input("Where will you purchase " + item)
   shop.append(location)
-  scale = input("On a scale of 1-10 what priority is", item)
+  scale = input("On a scale of 1-10 what priority is " + item)
   priority.append(scale)
-  price = int(input("How much does", item, "cost"))
+  price = float(input("How much does " + item + " cost"))
   pay.append(price)
-  amount = int(input("How many", item, "will you buy"))
+  amount = float(input("How many " + item + " will you buy"))
   quantity.append(amount)
 
 def remove():
@@ -47,4 +47,4 @@ total = 0
 for i in range(0, len(stuff)):
   total += pay[i] * quantity[i]
 
-print("Your total cost is:", total)
+print("Your total cost is: £" + str(total))
