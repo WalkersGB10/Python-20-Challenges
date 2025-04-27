@@ -1,4 +1,4 @@
-q = ["what is jamesNC?", "what does arlo do?", "how is Oliver Walker?"]
+q = ["what is jamesNC?", "what does arlo do?", "how is Oliver?"]
 a = ["cool", "smell", "great"]
 
 score = 0
