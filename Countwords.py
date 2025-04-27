@@ -1,4 +1,4 @@
 while True:
-  words = input("What is your phrase?")
-  wow = words.split()
-  print(len(wow))
+  phrase = input("What is your phrase?")
+  words = phrase.split()
+  print(len(words))
