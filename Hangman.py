@@ -11,8 +11,6 @@ display = []
 for i in word:
   display.append("_")
 
-print(word)
-
 while True:
   survive = 0
   again = 0
